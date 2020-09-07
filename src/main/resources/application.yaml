@@ -8,7 +8,7 @@ spring:
 server:
   servlet:
     context-path: /ps-store
-  port: 10011
+  port: 10021
 eureka:
   client:
     service-url:
