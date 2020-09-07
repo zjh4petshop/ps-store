@@ -16,3 +16,8 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+
+apps:
+  pet:
+    url:
+      getById: http://ps-pet/pet/{petId}

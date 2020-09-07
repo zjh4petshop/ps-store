@@ -1,0 +1,1 @@
+apps.pet.url.getById=http://ps-pet/pet/{petId}

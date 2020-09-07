@@ -1,7 +1,5 @@
 package com.zjh.psstore.enums;
 
 public enum OrderStatus {
-    PLACED,
-    APPROVED,
-    DELIVERED
+	PLACED, APPROVED, DELIVERED
 }
