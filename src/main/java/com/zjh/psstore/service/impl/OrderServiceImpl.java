@@ -1,5 +1,7 @@
 package com.zjh.psstore.service.impl;
 
+import javax.persistence.EntityNotFoundException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -10,8 +12,6 @@ import org.springframework.web.client.RestTemplate;
 import com.zjh.psstore.entity.Order;
 import com.zjh.psstore.repository.OrderRepository;
 import com.zjh.psstore.service.OrderService;
-
-import javax.persistence.EntityNotFoundException;
 
 @Service
 public class OrderServiceImpl implements OrderService {
